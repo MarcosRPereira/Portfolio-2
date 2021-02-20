@@ -10,29 +10,60 @@
   .titulo{
     margin: 0;
   }
-
+section.tela-relogio{
+  margin: auto;
+  max-width: 300px;
+}
   .tela-relogio{
     width: 285px;
     margin-left: 0px;
     margin-right: 0;
   }
+
+  .tela-relogio h1{
+    margin-bottom: 10px;
+  }
+  section.conteudo-informacoes{
+    margin: auto;
+  }
   .informacoes{
-    margin: 5px 0;
-    width:95%;
+    display: block;
+    margin: auto;
+    max-width: 300px;
+  }
+
+  .info{
+    max-width: 400px;
   }
 
   .foto img{
-    width: 90%;
+    max-width:150px;
+    max-height: 150px;
     border-radius: 55%;
-    margin: 5px 15px;
+    margin: 5px 60px;
   }
   .projetos{
-    float: left;
-    width: 95%;
-    margin: 10px 0;
+    max-width: 300px;
+    margin: auto;
     
-    
-  }
+ }
+
+ .projetos section{
+   margin: 5px 2px;
+   width: 250px;
+   height: 150px;
+ }
+.projetos div.descricao{
+  
+  
+  margin:0;
+}
+ .projetos section p{
+   width:250px;
+   margin:0;
+   padding:0;
+   text-align: center;
+ }
   footer{
     width: 300px;
     margin-top: 0;

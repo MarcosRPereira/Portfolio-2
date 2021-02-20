@@ -72,9 +72,10 @@ a.clicavel:hover{
 }
 
 .click-imagem:hover{
-  box-shadow: inset 1px 1px 11px 3px tomato,
-  inset 1px 1px 15px 10px rgb(238, 240, 97);
+  
   transition: 0.5s;
+  background-image: url('../img/minha-foto.jpg') ;
+  background-size: 140px 275px;
 }
 .sombra{
   width: 95%;
@@ -180,7 +181,7 @@ a.clicavel:hover{
 .infos{
   
   margin: 5px;
-  width: 600px;
+  max-width: 600px;
   background:turquoise;
 }
 
