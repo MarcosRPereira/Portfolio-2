@@ -23,10 +23,7 @@ function relogio(){
   let minutos = data.getMinutes();
   let segundos = data.getSeconds(); 
   
-<<<<<<< Updated upstream
-=======
-  
->>>>>>> Stashed changes
+
   // condição para colocar o zero na frente dos números menores que 10, assim todos os números ficam com 2 casas decimais.
   if(horas < 10){
     horas = "0"+horas;
@@ -53,11 +50,7 @@ function relogio(){
 
   // insere a semana, dia, mes e ano no html.
   document.getElementById("mostrarData").innerHTML = diaSemana;
-<<<<<<< Updated upstream
 
-=======
-  
->>>>>>> Stashed changes
 
 }
 
@@ -66,7 +59,7 @@ let tempo = setInterval(relogio,1000);
 <<<<<<< Updated upstream
 =======
 
->>>>>>> Stashed changes
+
 
 
 function idade(){
@@ -173,17 +166,17 @@ function volta(obj){
       console.log(tipo.value)
      console.log(tipo)
       if(tipo === 1){
-        arquivo = '<img src="./img/amostra-github.png" class="tamanho"> <button class="fechar">x</button> '; 
+        arquivo = '<img src="img/amostra-github.png" class="tamanho"> <button class="fechar">x</button> '; 
       } else if (tipo === 2){
-        arquivo = '<img src="./img/amostra-calc.png" class="tamanho"> <button class="fechar">x</button> ' ;
+        arquivo = '<img src="img/amostra-calc.png" class="tamanho"> <button class="fechar">x</button> ' ;
       }else if (tipo == 3){
-        arquivo = '<img src="./img/amostra-bikcraft.png" class="tamanho"> <button class="fechar">x</button> ' ;
+        arquivo = '<img src="img/amostra-bikcraft.png" class="tamanho"> <button class="fechar">x</button> ' ;
       } else if (tipo == 4){
-        arquivo = '<img src="./img/amostra-curso.png" class="tamanho"> <button class="fechar">x</button> ' ;
+        arquivo = '<img src="img/amostra-curso.png" class="tamanho"> <button class="fechar">x</button> ' ;
       } else if (tipo == 5){
-        arquivo = '<img src="./img/amostra-animes.png" class="tamanho"> <button class="fechar">x</button> ' ;
+        arquivo = '<img src="img/amostra-animes.png" class="tamanho"> <button class="fechar">x</button> ' ;
       } else if (tipo == 6){
-        arquivo = '<img src="./img/amostra-filme.png" class="tamanho"> <button class="fechar">x</button> ' ;
+        arquivo = '<img src="img/amostra-filme.png" class="tamanho"> <button class="fechar">x</button> ' ;
       } 
       document.getElementById("modal-resultado").innerHTML = arquivo;
       return arquivo;
