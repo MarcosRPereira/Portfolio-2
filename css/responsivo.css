@@ -1,0 +1,43 @@
+/* Responsivo Smartphone */
+
+@media only screen and (max-width:760px){
+  .container{
+    width:300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .titulo{
+    margin: 0;
+  }
+
+  .tela-relogio{
+    width: 285px;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+  .informacoes{
+    margin: 5px 0;
+    width:95%;
+  }
+
+  .foto img{
+    width: 90%;
+    border-radius: 55%;
+    margin: 5px 15px;
+  }
+  .projetos{
+    float: left;
+    width: 95%;
+    margin: 10px 0;
+    
+    
+  }
+  footer{
+    width: 300px;
+    margin-top: 0;
+    
+    margin: 0 auto;
+  }
+}
+
