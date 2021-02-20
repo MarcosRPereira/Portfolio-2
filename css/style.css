@@ -62,14 +62,13 @@ a.clicavel{   /*Serve para deixar a div clicavel */
 a.clicavel:hover{
   
   box-shadow: 1px 1px 10px 2px rgb(190, 205, 210);
-<<<<<<< Updated upstream
+
   color: rgb(4, 92, 70);
-  transition: 0.45s;
-=======
+ 
   
   transition: 0.25s;
   
->>>>>>> Stashed changes
+
 }
 .click-imagem{
   border: 1px solid rgb(191, 3, 253);
@@ -151,16 +150,14 @@ a.clicavel:hover{
 
 
 
-<<<<<<< Updated upstream
-.segundos{
 
-=======
+
 /* Informações */
 .conteudo-informacoes{
   background: rgba(0, 0, 0, 0.542);
   margin:20px 40px;
   max-width:800px;
->>>>>>> Stashed changes
+
 }
 
 .informacoes{
@@ -309,8 +306,7 @@ footer{
   padding: 10px;
   
 }
-<<<<<<< Updated upstream
-=======
+
 
 /*  modall
 */
@@ -364,4 +360,4 @@ footer{
   transform: scale(2.2);
   
 }
->>>>>>> Stashed changes
+
