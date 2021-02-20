@@ -56,8 +56,7 @@ function relogio(){
 
 //determina quanto tempo o relogico vai ficar atulizando em milisegundos, 1000 = 1segundo.
 let tempo = setInterval(relogio,1000);
-<<<<<<< Updated upstream
-=======
+
 
 
 
