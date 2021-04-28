@@ -71,12 +71,7 @@ a.clicavel:hover{
   cursor: pointer;
 }
 
-.click-imagem:hover{
-  
-  transition: 0.5s;
-  background-image: url('../img/minha-foto.jpg') ;
-  background-size: 140px 275px;
-}
+
 .sombra{
   width: 95%;
   box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.377);
@@ -105,7 +100,7 @@ a.clicavel:hover{
 /*--------- Relogio------- */
 .tela-relogio{
   max-width: 796px;
-  margin: 40px 0px 10px 40px;
+  margin: 40px 0px 0px 40px;
   text-align: center;
   background: rgba(0, 0, 0, 0.542);
   color: aqua;
@@ -149,23 +144,28 @@ a.clicavel:hover{
 
 /* Informações */
 .conteudo-informacoes{
+  
   background: rgba(0, 0, 0, 0.542);
-  margin:20px 40px;
+  margin:0 40px;
   max-width:800px;
+  align-items: center;
 }
 
+.barra-lateral{
+ 
+}
 .informacoes{
   display: inline-flex;
-  width: 600px;
-  margin: 20px;
-  margin-left: 100px;
-  background:tomato;
+  width: 800px;
+  margin: 0px;
+ justify-content: center;
 }
 
 .informacoes div.foto{
   margin: 5px;
   margin-right: 0;
   background: midnightblue;
+  border: 4px solid tomato;
 }
 
 
@@ -181,8 +181,10 @@ a.clicavel:hover{
 .infos{
   
   margin: 5px;
+  margin-left: 0;
   max-width: 600px;
   background:turquoise;
+  border: 4px solid tomato;
 }
 
 .infos h2{
@@ -218,9 +220,11 @@ a.clicavel:hover{
   background:midnightblue;
 }
 .projetos{
+  position:relative;
   max-width: 800px;
-  margin: 20px 40px;
+  margin: 0 40px;
   background: rgba(0, 0, 0, 0.542);
+  box-shadow: 1px 1px 11px 3px rgb(20, 26, 19);
 }
 .projetos section{
   
@@ -293,13 +297,7 @@ a.clicavel:hover{
   margin-right: 5px;
 }
 
-footer{
-  color:white;
-  background: rgb(81,138,171);
-  text-align: center;
-  padding: 10px;
-  
-}
+
 
 /*  modall
 */
@@ -307,9 +305,9 @@ footer{
 .modal-container{
   width: 100vw;
   height: 100vh;
-  position: fixed;
-  top:-150px;
-  left: -450px;
+  position: absolute;
+  top:450px;
+  left:0px;
   z-index: 2000;
   display: none;
   justify-content: center;
@@ -344,12 +342,19 @@ footer{
   border-radius:10px
 }
 
-.modal{
-  position: relative;
- 
+
+.modal:hover{
+  transform: scale(1.9);
   
 }
-.modal:hover{
-  transform: scale(2.2);
+
+footer{
+  max-width: 780px;
+  margin:0 40px;
+  color:white;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.542);
+  box-shadow: 1px 1px 10px 3px rgb(20, 26, 19);
   
 }
